@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0  Date: Чт 19 сен 2013 00:53:28
+#
+$CMP BD-A812RD
+D 2 x 7 Segments common A.
+K 7 SEGMENTS
+F Display/display-DA04-11GWA.pdf
+$ENDCMP
+#
+$CMP SW_PUSH_2
+D Push Button 4pins
+K Switch
+$ENDCMP
+#
+$CMP TVS
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
