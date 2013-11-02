@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:new_lib
+LIBS:pclptcnc-cache
 EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "1 nov 2013"
+Date "2 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -217,7 +218,7 @@ Text Label 5950 1750 2    60   ~ 0
 SENSOR_3
 Text Label 19050 6250 0    60   ~ 0
 SENSOR_4
-Text Label 5950 1950 2    60   ~ 0
+Text Label 5950 2000 2    60   ~ 0
 SENSOR_2
 Text Label 10150 2300 0    60   ~ 0
 LN_CTRL1
@@ -359,49 +360,49 @@ Text Label 19200 9800 0    60   ~ 0
 PC12
 Text Label 2650 1750 2    60   ~ 0
 RC1
-Text Label 2650 1550 2    60   ~ 0
+Text Label 2650 1500 2    60   ~ 0
 RC2
-Text Label 2650 1950 2    60   ~ 0
+Text Label 2650 2000 2    60   ~ 0
 RC3
-Text Label 2650 2150 2    60   ~ 0
+Text Label 2650 2250 2    60   ~ 0
 RC4
 Text Label 2650 3550 2    60   ~ 0
 RC5
-Text Label 2650 3350 2    60   ~ 0
+Text Label 2650 3300 2    60   ~ 0
 RC6
-Text Label 2650 3750 2    60   ~ 0
+Text Label 2650 3800 2    60   ~ 0
 RC7
-Text Label 2650 3950 2    60   ~ 0
+Text Label 2650 4050 2    60   ~ 0
 RC8
-Text Label 2650 5150 2    60   ~ 0
+Text Label 2650 5100 2    60   ~ 0
 RC9
-Text Label 2650 5550 2    60   ~ 0
+Text Label 2650 5600 2    60   ~ 0
 RC10
 Text Label 2650 5350 2    60   ~ 0
 RC11
-Text Label 2650 5750 2    60   ~ 0
-RC12
 Text Label 2650 5850 2    60   ~ 0
+RC12
+Text Label 2650 5950 2    60   ~ 0
 PC12
 Text Label 2650 5450 2    60   ~ 0
 PC11
-Text Label 2650 5650 2    60   ~ 0
+Text Label 2650 5700 2    60   ~ 0
 PC10
-Text Label 2650 5250 2    60   ~ 0
+Text Label 2650 5200 2    60   ~ 0
 PC9
-Text Label 2650 4050 2    60   ~ 0
+Text Label 2650 4150 2    60   ~ 0
 PC8
-Text Label 2650 3850 2    60   ~ 0
+Text Label 2650 3900 2    60   ~ 0
 PC7
-Text Label 2650 3450 2    60   ~ 0
+Text Label 2650 3400 2    60   ~ 0
 PC6
 Text Label 2650 3650 2    60   ~ 0
 PC5
-Text Label 2650 2250 2    60   ~ 0
+Text Label 2650 2350 2    60   ~ 0
 PC4
-Text Label 2650 2050 2    60   ~ 0
+Text Label 2650 2100 2    60   ~ 0
 PC3
-Text Label 2650 1650 2    60   ~ 0
+Text Label 2650 1600 2    60   ~ 0
 PC2
 Text Label 2650 1850 2    60   ~ 0
 PC1
@@ -715,7 +716,7 @@ Text Label 16100 10100 0    60   ~ 0
 GND
 Text Label 5400 9550 0    60   ~ 0
 GND
-Text Label 5950 9950 0    60   ~ 0
+Text Label 6000 9950 0    60   ~ 0
 VCC
 Text Notes 19650 1150 0    60   ~ 0
 REMOTE CONTROL PORT
@@ -824,11 +825,11 @@ F 3 "~" H 18450 9300 60  0000 C CNN
 $EndComp
 Text Label 21900 1450 0    60   ~ 0
 GND
-Text Label 21900 1950 0    60   ~ 0
+Text Label 21900 1550 0    60   ~ 0
 PC_IN1
 Text Label 21900 1750 0    60   ~ 0
 PC_IN2
-Text Label 21900 1550 0    60   ~ 0
+Text Label 21900 1950 0    60   ~ 0
 PC_IN3
 Text Label 21900 1350 0    60   ~ 0
 PC_IN4
@@ -1305,9 +1306,9 @@ Text Label 21750 4500 0    60   ~ 0
 SENSOR_3
 Text Label 20400 6250 0    60   ~ 0
 SENSOR_5
-Text Label 5950 1550 2    60   ~ 0
+Text Label 5950 1500 2    60   ~ 0
 SENSOR_4
-Text Label 5950 2150 2    60   ~ 0
+Text Label 5950 2250 2    60   ~ 0
 SENSOR_1
 Text Label 20100 5950 0    60   ~ 0
 SNSR_INPUT2
@@ -1567,8 +1568,6 @@ Text Label 11550 2000 2    60   ~ 0
 GND
 Text Label 13050 2600 0    60   ~ 0
 ISOLATED_GND
-Text Label 13050 1700 0    60   ~ 0
-ISOLATED_VCC
 $Comp
 L HCPL2630 U4
 U 1 1 522E2A8F
@@ -2567,9 +2566,9 @@ Text Notes 11750 5250 0    60   ~ 0
 OUTPUT AMPLIFICATION CIRCUITS
 Text Notes 16950 4350 0    60   ~ 0
 OUTPUT CONNECTORS
-Text Label 6150 7050 0    60   ~ 0
+Text Label 6250 7050 0    60   ~ 0
 ISOLATED_VCC
-Text Label 5350 7450 0    60   ~ 0
+Text Label 5300 7450 0    60   ~ 0
 ISOLATED_GND
 Text Label 10250 6500 0    60   ~ 0
 OUTPUT_SIGNAL2
@@ -3345,7 +3344,7 @@ Wire Wire Line
 Wire Wire Line
 	18800 5300 18800 4900
 Wire Wire Line
-	19050 4500 18550 4500
+	18550 4500 19050 4500
 Wire Wire Line
 	18750 5650 18750 5850
 Wire Wire Line
@@ -3366,7 +3365,7 @@ Wire Wire Line
 Wire Wire Line
 	21500 5300 21500 4900
 Wire Wire Line
-	21750 4500 21250 4500
+	21250 4500 21750 4500
 Wire Wire Line
 	21450 5650 21450 5850
 Wire Wire Line
@@ -3387,7 +3386,7 @@ Wire Wire Line
 Wire Wire Line
 	20150 5300 20150 4900
 Wire Wire Line
-	20400 4500 19900 4500
+	19900 4500 20400 4500
 Wire Wire Line
 	20100 5650 20100 5850
 Wire Wire Line
@@ -3408,7 +3407,7 @@ Wire Wire Line
 Wire Wire Line
 	18800 7050 18800 6650
 Wire Wire Line
-	19050 6250 18550 6250
+	18550 6250 19050 6250
 Wire Wire Line
 	18750 7400 18750 7600
 Wire Wire Line
@@ -3429,7 +3428,7 @@ Wire Wire Line
 Wire Wire Line
 	20150 7050 20150 6650
 Wire Wire Line
-	20400 6250 19900 6250
+	19900 6250 20400 6250
 Wire Wire Line
 	20100 7400 20100 7600
 Wire Wire Line
@@ -3631,10 +3630,10 @@ Wire Notes Line
 Wire Wire Line
 	5150 7050 5450 7050
 Wire Wire Line
-	5400 9550 6600 9550
+	6600 9550 5400 9550
 Connection ~ 6200 9550
 Wire Wire Line
-	6600 9550 6600 8850
+	6600 8850 6600 9550
 Connection ~ 6600 9200
 Wire Wire Line
 	7000 9950 7000 8450
@@ -3642,8 +3641,6 @@ Connection ~ 7000 8850
 Connection ~ 7000 9200
 Connection ~ 7000 9550
 Connection ~ 6600 9950
-Wire Wire Line
-	5200 9950 5200 9550
 Connection ~ 6200 9950
 Wire Wire Line
 	5950 9950 7000 9950
@@ -3673,34 +3670,10 @@ Text Label 20250 3450 0    60   ~ 0
 SENSOR_4
 Text Label 20250 3650 0    60   ~ 0
 SENSOR_5
-Text Label 5200 9950 0    60   ~ 0
-VCC_NFused
-$Comp
-L FUSE_N F1
-U 1 1 523251F3
-P 5700 7050
-F 0 "F1" H 5800 7100 40  0000 C CNN
-F 1 "FUSE 1A" H 5600 7000 40  0000 C CNN
-F 2 "~" H 5700 7050 60  0000 C CNN
-F 3 "~" H 5700 7050 60  0000 C CNN
-	1    5700 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L FUSE_N F2
-U 1 1 523253C0
-P 5700 9950
-F 0 "F2" H 5800 10000 40  0000 C CNN
-F 1 "FUSE 0.5A" H 5600 9900 40  0000 C CNN
-F 2 "~" H 5700 9950 60  0000 C CNN
-F 3 "~" H 5700 9950 60  0000 C CNN
-	1    5700 9950
-	1    0    0    -1  
-$EndComp
-Text Label 5200 7050 0    60   ~ 0
+Text Label 5150 7050 0    60   ~ 0
 ISOLATED_VCC_NFused
 NoConn ~ 5150 7250
-Text Label 5950 2250 2    60   ~ 0
+Text Label 5950 2350 2    60   ~ 0
 GND
 Text Label 5950 3550 2    60   ~ 0
 GND
@@ -3716,11 +3689,11 @@ Text Label 2650 6100 2    60   ~ 0
 PC/RC_SW
 Text Label 5700 5950 0    60   ~ 0
 IOSRCTR_BASE
-Text Label 5950 2050 2    60   ~ 0
+Text Label 5950 2100 2    60   ~ 0
 GND
 Text Label 5950 1850 2    60   ~ 0
 GND
-Text Label 5950 1650 2    60   ~ 0
+Text Label 5950 1600 2    60   ~ 0
 GND
 $Comp
 L HOLE_3.05 H1
@@ -4123,4 +4096,34 @@ Text Label 10100 11250 2    60   ~ 0
 RCOUT12
 Text Label 10100 11500 2    60   ~ 0
 SRC_SEL
+Text Label 5250 9950 0    60   ~ 0
+VCC_NFused
+Wire Wire Line
+	5200 9950 5200 9550
+NoConn ~ 12100 10750
+NoConn ~ 12100 10950
+Text Label 13050 1700 0    60   ~ 0
+ISOLATED_VCC
+$Comp
+L FUSE_N F1
+U 1 1 52754D48
+P 5700 7050
+F 0 "F1" H 5800 7100 40  0000 C CNN
+F 1 "FUSE 1A" H 5600 7000 40  0000 C CNN
+F 2 "~" H 5700 7050 60  0000 C CNN
+F 3 "~" H 5700 7050 60  0000 C CNN
+	1    5700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE_N F2
+U 1 1 52754D55
+P 5700 9950
+F 0 "F2" H 5800 10000 40  0000 C CNN
+F 1 "FUSE 0.5A" H 5600 9900 40  0000 C CNN
+F 2 "~" H 5700 9950 60  0000 C CNN
+F 3 "~" H 5700 9950 60  0000 C CNN
+	1    5700 9950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

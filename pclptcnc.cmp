@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 28 окт 2013 00:53:16
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Сб 02 ноя 2013 18:20:18
 
 BeginCmp
 TimeStamp = /522E2A3C;
@@ -281,14 +281,14 @@ IdModule  = SPU03XXXX;
 EndCmp
 
 BeginCmp
-TimeStamp = /523251F3;
+TimeStamp = /52754D48;
 Reference = F1;
 ValeurCmp = FUSE 1A;
 IdModule  = FUSE5-20_1.4mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /523253C0;
+TimeStamp = /52754D55;
 Reference = F2;
 ValeurCmp = FUSE 0.5A;
 IdModule  = FUSE5-20_1.4mm;
