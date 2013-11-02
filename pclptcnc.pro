@@ -48,7 +48,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=new_lib
-LibName32=pclptcnc-cache
 [pcbnew]
 version=1
 LastNetListRead=pclptcnc.net
@@ -87,4 +86,3 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=newbrd
-LibName18=dip_4
