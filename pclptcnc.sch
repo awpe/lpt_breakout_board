@@ -214,11 +214,11 @@ Text Label 19050 4500 0    60   ~ 0
 SENSOR_1
 Text Label 5950 3850 2    60   ~ 0
 SENSOR_5
-Text Label 5950 1750 2    60   ~ 0
+Text Label 5950 2000 2    60   ~ 0
 SENSOR_3
 Text Label 19050 6250 0    60   ~ 0
 SENSOR_4
-Text Label 5950 2000 2    60   ~ 0
+Text Label 5950 1750 2    60   ~ 0
 SENSOR_2
 Text Label 10150 2300 0    60   ~ 0
 LN_CTRL1
@@ -358,11 +358,11 @@ Text Label 21850 9800 0    60   ~ 0
 PC11
 Text Label 19200 9800 0    60   ~ 0
 PC12
-Text Label 2650 1750 2    60   ~ 0
+Text Label 2650 2000 2    60   ~ 0
 RC1
 Text Label 2650 1500 2    60   ~ 0
 RC2
-Text Label 2650 2000 2    60   ~ 0
+Text Label 2650 1750 2    60   ~ 0
 RC3
 Text Label 2650 2250 2    60   ~ 0
 RC4
@@ -400,11 +400,11 @@ Text Label 2650 3650 2    60   ~ 0
 PC5
 Text Label 2650 2350 2    60   ~ 0
 PC4
-Text Label 2650 2100 2    60   ~ 0
+Text Label 2650 1850 2    60   ~ 0
 PC3
 Text Label 2650 1600 2    60   ~ 0
 PC2
-Text Label 2650 1850 2    60   ~ 0
+Text Label 2650 2100 2    60   ~ 0
 PC1
 $Comp
 L CP1 C5

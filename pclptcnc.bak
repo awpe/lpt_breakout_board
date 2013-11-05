@@ -214,11 +214,11 @@ Text Label 19050 4500 0    60   ~ 0
 SENSOR_1
 Text Label 5950 3850 2    60   ~ 0
 SENSOR_5
-Text Label 5950 1750 2    60   ~ 0
+Text Label 5950 2000 2    60   ~ 0
 SENSOR_3
 Text Label 19050 6250 0    60   ~ 0
 SENSOR_4
-Text Label 5950 2000 2    60   ~ 0
+Text Label 5950 1750 2    60   ~ 0
 SENSOR_2
 Text Label 10150 2300 0    60   ~ 0
 LN_CTRL1
@@ -825,11 +825,11 @@ F 3 "~" H 18450 9300 60  0000 C CNN
 $EndComp
 Text Label 21900 1450 0    60   ~ 0
 GND
-Text Label 21900 1950 0    60   ~ 0
+Text Label 21900 1550 0    60   ~ 0
 PC_IN1
 Text Label 21900 1750 0    60   ~ 0
 PC_IN2
-Text Label 21900 1550 0    60   ~ 0
+Text Label 21900 1950 0    60   ~ 0
 PC_IN3
 Text Label 21900 1350 0    60   ~ 0
 PC_IN4
