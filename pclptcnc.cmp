@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Сб 02 ноя 2013 18:20:18
+Cmp-Mod V01 Created by PcbNew date = Wed 06 Nov 2013 18:35:14 CET
 
 BeginCmp
 TimeStamp = /522E2A3C;
 Reference = C1;
 ValeurCmp = 470uF;
-IdModule  = c_elec_10x10;
+IdModule  = c_elec_8x10.5;
 EndCmp
 
 BeginCmp
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /522E2A3B;
 Reference = C5;
 ValeurCmp = 470uF;
-IdModule  = c_elec_10x10;
+IdModule  = c_elec_8x10.5;
 EndCmp
 
 BeginCmp
@@ -284,14 +284,14 @@ BeginCmp
 TimeStamp = /52754D48;
 Reference = F1;
 ValeurCmp = FUSE 1A;
-IdModule  = FUSE5-20_1.4mm;
+IdModule  = FUSE_HOLDER;
 EndCmp
 
 BeginCmp
 TimeStamp = /52754D55;
 Reference = F2;
 ValeurCmp = FUSE 0.5A;
-IdModule  = FUSE5-20_1.4mm;
+IdModule  = FUSE_HOLDER;
 EndCmp
 
 BeginCmp
