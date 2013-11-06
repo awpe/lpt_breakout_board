@@ -37,7 +37,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 nov 2013"
+Date "6 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -318,11 +318,11 @@ Text Label 19200 11200 0    60   ~ 0
 PC2
 Text Label 19200 11600 0    60   ~ 0
 PC3
-Text Label 19200 10600 0    60   ~ 0
+Text Label 19200 9800 0    60   ~ 0
 PC4
 Text Label 21850 11000 0    60   ~ 0
 PC5
-Text Label 19200 11000 0    60   ~ 0
+Text Label 19200 10600 0    60   ~ 0
 PC6
 Text Label 19200 10800 0    60   ~ 0
 PC7
@@ -334,7 +334,7 @@ Text Label 21850 8800 0    60   ~ 0
 PC10
 Text Label 21850 9800 0    60   ~ 0
 PC11
-Text Label 19200 9800 0    60   ~ 0
+Text Label 19200 11000 0    60   ~ 0
 PC12
 Text Label 2650 2150 2    60   ~ 0
 RC1
@@ -346,9 +346,9 @@ Text Label 2650 1550 2    60   ~ 0
 RC4
 Text Label 2650 5150 2    60   ~ 0
 RC5
-Text Label 2650 3350 2    60   ~ 0
-RC6
 Text Label 2650 3750 2    60   ~ 0
+RC6
+Text Label 2650 3950 2    60   ~ 0
 RC7
 Text Label 2650 5350 2    60   ~ 0
 RC8
@@ -356,7 +356,7 @@ Text Label 2650 3550 2    60   ~ 0
 RC9
 Text Label 2650 5750 2    60   ~ 0
 RC10
-Text Label 2650 3950 2    60   ~ 0
+Text Label 2650 3350 2    60   ~ 0
 RC11
 Text Label 2650 5550 2    60   ~ 0
 RC12
@@ -370,11 +370,11 @@ Text Label 2650 5250 2    60   ~ 0
 PC9
 Text Label 2650 5450 2    60   ~ 0
 PC8
-Text Label 2650 3850 2    60   ~ 0
-PC7
 Text Label 2650 3450 2    60   ~ 0
-PC6
+PC7
 Text Label 2650 3650 2    60   ~ 0
+PC6
+Text Label 2650 3850 2    60   ~ 0
 PC5
 Text Label 2650 2250 2    60   ~ 0
 PC4
@@ -1381,21 +1381,21 @@ Text Label 4150 2050 0    60   ~ 0
 FLTRD_SGNL3
 Text Label 4150 1550 0    60   ~ 0
 FLTRD_SGNL4
-Text Label 4150 3350 0    60   ~ 0
-FLTRD_SGNL5
-Text Label 4150 3850 0    60   ~ 0
-FLTRD_SGNL6
-Text Label 4150 3600 0    60   ~ 0
-FLTRD_SGNL7
 Text Label 4150 4100 0    60   ~ 0
+FLTRD_SGNL5
+Text Label 4150 3600 0    60   ~ 0
+FLTRD_SGNL6
+Text Label 4150 3850 0    60   ~ 0
+FLTRD_SGNL7
+Text Label 4150 3350 0    60   ~ 0
 FLTRD_SGNL8
 Text Label 4150 5150 0    60   ~ 0
 FLTRD_SGNL9
 Text Label 4150 5650 0    60   ~ 0
 FLTRD_SGNL10
-Text Label 4150 5400 0    60   ~ 0
-FLTRD_SGNL11
 Text Label 4150 5900 0    60   ~ 0
+FLTRD_SGNL11
+Text Label 4150 5400 0    60   ~ 0
 FLTRD_SGNL12
 Text Label 7450 1800 0    60   ~ 0
 PC_IN_A1
