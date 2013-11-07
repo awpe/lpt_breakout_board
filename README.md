@@ -5,4 +5,4 @@ IEEE1284 breakout board
 
 This is the first version with some bug fixes and improvements.
 
-It utilizes SPU03 series dc/dc converter and the controlled device part of PCB is isolated by it.
+It utilizes SPU03 series dc/dc converter and the controlleD device part of PCB is isolated by it.
