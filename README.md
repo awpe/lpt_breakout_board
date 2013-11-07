@@ -5,7 +5,7 @@ IEEE1284 breakout board
 
 This is a KiCad (http://www.kicad-pcb.org/) project.
 
-Device allows to select controller type for I/O pins.
+Device allows to select controller for I/O pins.
 
 contact information:
 
