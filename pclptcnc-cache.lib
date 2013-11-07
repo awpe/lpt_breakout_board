@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Wed 06 Nov 2013 16:22:48 CET
+EESchema-LIBRARY Version 2.3  Date: Thu 07 Nov 2013 02:17:05 CET
 #encoding utf-8
 #
 # 74HC158
@@ -393,15 +393,19 @@ P 6 0 1 0  0 0  0 50  -75 100  0 150  75 100  0 50 N
 ENDDRAW
 ENDDEF
 #
-# R_SFP
+# R
 #
-DEF R_SFP R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 100 0 40 V V C CNN
-F1 "R_SFP" 7 1 40 V V C CNN
+F1 "R" 7 1 40 V V C CNN
 F2 "~" -70 0 30 V V C CNN
 F3 "~" 0 0 30 H V C CNN
 $FPLIST
+ R?
+ SM0603
  SM0805
+ R?-*
+ SM1206
 $ENDFPLIST
 DRAW
 S -40 100 40 -100 0 1 0 N

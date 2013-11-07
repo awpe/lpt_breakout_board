@@ -1,4 +1,4 @@
-update=Tue 05 Nov 2013 12:25:21 CET
+update=Thu 07 Nov 2013 00:10:27 CET
 version=1
 last_client=eeschema
 [general]
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=newbrd
 [eeschema]
 version=1
-LibDir=../lpt_breakout_board
+LibDir=
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
