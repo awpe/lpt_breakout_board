@@ -13,4 +13,3 @@ fb:    https://www.facebook.com/awpe00
 vk:    http://vk.com/id2616793
 tw:    http://twitter.com/lantcant
 gmail: awpe00@gmail.com
-skype: arhui1
